@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark text color */
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+header {
+    background-color: hsl(207, 93%, 33%); /* Blue background for header */
+    color: #fff; /* White text color for header */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: hsl(207, 93%, 33%); /* Blue background for navigation */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li button {
+    background-color: transparent;
+    border: none;
+    color: #fff; /* White text color for navigation buttons */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+nav ul li button:hover {
+    background-color: hsl(207, 93%, 33%); /* Darker shade of blue on hover */
+}
+
+section {
+    padding: 40px; /* Increased padding for more space */
+    margin-bottom: 40px; /* Increased margin-bottom for more space */
+}
+
+section.hidden {
+    display: none;
+}
+
+footer {
+    background-color: hsl(207, 93%, 33%); /* Blue background for footer */
+    color: #fff; /* White text color for footer */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Specific Styles */
+.logo {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    border-radius: 50%; /* To make the logo circular */
+    margin-right: 20px; /* Spacing between logo and title */
+}
+
+#Home h2 {
+    text-align: center;
+}
+
+#Benefits .benefits-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#Benefits .benefit {
+    width: 30%;
+    padding: 20px; /* Increased padding for more space */
+    margin-bottom: 40px; /* Increased margin-bottom for more space */
+    background-color: #f0f0f0; /* Light gray background for benefits */
+    color: #333; /* Dark text color for benefits */
+}
+
+@media screen and (max-width: 768px) {
+    #Benefits .benefit {
+        width: 45%; /* Adjust for smaller screens */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #Benefits .benefit {
+        width: 100%; /* Adjust for even smaller screens */
+    }
+}

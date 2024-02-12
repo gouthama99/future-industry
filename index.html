@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Industries</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Welcome to Future Industries</h1>
+            <img src="/Users/arunakrishna/Desktop/logos.png" alt="Future Industries Logo" class="logo">
+        </div>
+        <p>Where Innovation Meets Prosperity</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><button onclick="toggleSection('Home')">Home</button></li>
+            <li><button onclick="toggleSection('About Us')">About Us</button></li>
+            <li><button onclick="toggleSection('Jobs')">Jobs</button></li>
+            <li><button onclick="toggleSection('Apply')">Apply</button></li>
+            <li><button onclick="toggleSection('Benefits')">Benefits</button></li>
+        </ul>
+    </nav>
+
+    <section id="Home">
+        <ul>
+        <h2>Welcome to Future Industries
+        </ul>
+        </h2>
+        <div class="jobs-container">
+            <div class="job-description">
+                <ul>
+                <header>
+                    <h1>About Future Industries</h1>
+                    <p>Future Industries is a leading tech company dedicated to innovation and excellence. Our team of experts works tirelessly to develop cutting-edge solutions that drive business growth and success.</p>
+                </header>
+                </ul>
+                <ul>
+                <main>
+                    <h2>Introduction to Future Industries</h2>
+                    <p>Future Industries is a leading tech company dedicated to innovation and excellence. Our mission is to empower businesses with technology solutions that drive innovation, efficiency, and growth. We believe in leveraging cutting-edge technologies to solve complex challenges and create meaningful impact for our clients.</p>
+                </main>
+                </ul>
+                <ul>
+                <header>
+                    <h1>Key Services and Products</h1>
+                    <p>At Future Industries, we offer a range of services tailored to meet the unique needs of our clients. From software development to AI solutions and consulting services, we provide comprehensive solutions that help businesses thrive in today's digital landscape.</p>
+                </header>
+                </ul>
+                <ul>
+                <main>
+                    <h2>Company Culture and Values</h2>
+                    <p>At Future Industries, we foster a culture of collaboration, innovation, and continuous learning. We believe in diversity and inclusion, and strive to create an environment where every team member feels valued and empowered. Our core values of integrity, excellence, and customer-centricity guide everything.</p>
+                </main>
+                </ul>
+                <ul>
+                <header>
+                    <h1>Latest News and Updates</h1>
+                    <p>Stay updated with our latest developments, partnerships, and achievements. From new product launches to industry insights, our news section keeps you informed about Future Industries's ongoing initiatives and demonstrates our commitment to staying at the forefront of the industry.</p>
+                    <p>Please see our contact info for more details</p>
+                </header>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="About Us" class="hidden">
+        <ul>
+        <h2>About Us</h2>
+        </ul>
+        <div class="jobs-container">
+            <div class="job-description">
+                <header>
+                    <h1>About Future Industries</h1>
+                    <p>Discover the heart and soul of Future Industries. In this section, we delve into our company's history, values, and culture. Through captivating visuals and compelling narratives, visitors gain insight into what sets us apart in the tech industry.</p>
+                </header>
+                <ul>
+                <main>
+                    <h2>Why Choose Us</h2>
+                    <p>Joining Future Industries isn't just about a job; it's about joining a community of passionate innovators. Here, we outline the myriad benefits of being part of our team, from competitive salaries and comprehensive healthcare to flexible work arrangements and professional development opportunities.</p>
+                </main>
+                </ul>
+                <header>
+                    <h1>The Face of Our Business</h1>
+                    <p>At Future Industries, we are the face of innovation in the tech industry. We strive to push the boundaries of what's possible, constantly seeking new solutions to today's challenges.</p>
+                </header>
+                <ul>
+                <main>
+                    <h2>Our Brand Story</h2>
+                    <p>Our brand story is one of determination, collaboration, and excellence. From our humble beginnings to our current position as a leader in the tech world, we have remained committed to our core values and vision.</p>
+                </main>
+                </ul>
+                <header>
+                    <h1>Who We Serve</h1>
+                    <p>We serve businesses of all sizes across various industries, providing them with cutting-edge technology solutions tailored to their needs. Our clients range from startups looking to disrupt the market to established enterprises seeking to stay ahead of the curve.</p>
+                </header>
+                <ul>
+                <main>
+                    <h2>How We Operate</h2>
+                    <p>At Future Industries, we operate with transparency, integrity, and a relentless pursuit of excellence. Our team of experts collaborates closely with clients to understand their goals and challenges, delivering solutions that drive real business value.</p>
+                </main>
+                </ul>
+                <header>
+                    <h1>Team Introduction</h1>
+                    <ul>
+                    <p>Meet the faces behind Future Industries! Our diverse team of talented individuals brings together a wealth of experience, expertise, and creativity. Together, we work tirelessly to turn ideas into reality and make a positive impact on the world.</p>
+                    </ul>
+                    <ul>
+                        <li><strong>John Smith</strong> - Chief Executive Officer</li>
+                        <li><strong>Emily Johnson</strong> - Chief Technology Officer</li>
+                        <li><strong>Michael Williams</strong> - Head of Product Development</li>
+                        <li><strong>Sarah Brown</strong> - Lead UX/UI Designer</li>
+                        <li><strong>David Miller</strong> - Senior Software Engineer</li>
+                    </ul>
+                </header>
+                <ul>
+                <main>
+                    <h2>Why the Customer Should Care</h2>
+                    <p>Customers should care about Future Industries because we are more than just a tech company; we are a partner in their success. We go above and beyond to understand their needs, anticipate their challenges, and deliver innovative solutions that drive growth and efficiency.</p>
+                </main>
+                </ul>
+                <header>
+                    <h1>Our Mission</h1>
+                    <p>Our mission at Future Industries is to empower businesses with technology solutions that drive innovation, efficiency, and growth. We are committed to helping our clients achieve their goals and unlock their full potential through the power of technology.</p>
+                </header>
+                <ul>
+                <main>
+                    <h2>A Look At the Office</h2>
+                    <div class="gallery">
+                        <button id="prevBtn" onclick="prevSlide()">&#10094; Previous</button>
+                        <button id="nextBtn" onclick="nextSlide()">Next &#10095;</button>
+                        <div class="slides">
+                            <figure>
+                                <img src="/Users/arunakrishna/Desktop/Office.png">
+                                <figcaption>A Fun Meeting With All Officers</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="/Users/arunakrishna/Desktop/Office_work.png">
+                                <figcaption>Hard Work Makes Dream Work</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="/Users/arunakrishna/Desktop/officers.png">
+                                <figcaption>A Busy Schedule!</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </main>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Jobs">
+        <h2>Current Job Openings</h2>
+        <div class="jobs-container">
+            <div class="job-description">
+                <header>
+                    <h1>Software Engineer (Backend Development)</h1>
+                    <p>Explore opportunities at Future Industries</p>
+                </header>
+                <main>
+                    <h2>Key Responsibilities</h2>
+                    <ul>
+                        <li>Collaborate with cross-functional teams to design and implement backend solutions.</li>
+                        <li>Develop RESTful APIs and integrate with third-party services.</li>
+                        <li>Optimize application performance and ensure scalability and reliability.</li>
+                        <li>Troubleshoot and debug production issues to ensure smooth operation.</li>
+                    </ul>
+               
+                    <h2>Qualifications</h2>
+                    <ul>
+                        <li>Bachelor's degree in Computer Science or related field.</li>
+                        <li>Proven experience in backend development using languages such as Python, Node.js, or Java.</li>
+                        <li>Strong understanding of database technologies, including SQL and NoSQL.</li>
+                        <li>Familiarity with cloud platforms such as AWS or Azure is a plus.</li>
+                        <li>Excellent problem-solving and communication skills.</li>
+                    </ul>
+                </main>
+                <header>
+                    <h1>Data Scientist (Machine Learning)</h1>
+                    <p>Explore opportunities at Future Industries</p>
+                </header>
+            
+                <main>
+                    <h2>Key Responsibilities</h2>
+                    <ul>
+                        <li>Develop machine learning models for predictive analytics and pattern recognition.</li>
+                        <li>Conduct exploratory data analysis to identify trends and opportunities.</li>
+                        <li>Collaborate with cross-functional teams to integrate machine learning solutions into our products.</li>
+                        <li>Stay up-to-date with the latest advancements in machine learning and data science.</li>
+                    </ul>
+            
+                    <h2>Qualifications</h2>
+                    <ul>
+                        <li>Master's degree or Ph.D. in Computer Science, Statistics, or related field.</li>
+                        <li>Proficiency in programming languages such as Python or R.</li>
+                        <li>Experience with machine learning frameworks such as TensorFlow or PyTorch.</li>
+                        <li>Strong understanding of statistical concepts and methodologies.</li>
+                        <li>Excellent communication and collaboration skills.</li>
+                    </ul>
+                </main>
+                <header>
+                    <h1>UX/UI Designer (User Experience)</h1>
+                    <p>Explore opportunities at Future Industries</p>
+                </header>
+            
+                <main>
+                    <h2>Key Responsibilities</h2>
+                    <ul>
+                        <li>Collaborate with product managers and developers to understand user requirements.</li>
+                        <li>Design wireframes, prototypes, and mockups to visualize design concepts.</li>
+                        <li>Conduct user research and usability testing to gather feedback and iterate designs.</li>
+                        <li>Ensure consistency and coherence across all user touchpoints.</li>
+                    </ul>
+            
+                    <h2>Qualifications</h2>
+                    <ul>
+                        <li>Bachelor's degree in Design, Human-Computer Interaction, or related field.</li>
+                        <li>Proficiency in design tools such as Sketch, Adobe XD, or Figma.</li>
+                        <li>Strong portfolio showcasing previous UI/UX design work.</li>
+                        <li>Experience with HTML, CSS, and JavaScript is a plus.</li>
+                        <li>Excellent problem-solving and communication skills.</li>
+                    </ul>
+                </main>
+                <header>
+                    <h1>Project Manager (IT)</h1>
+                    <p>Explore opportunities at Future Industries</p>
+                </header>
+            
+                <main>
+                    <h2>Key Responsibilities</h2>
+                    <ul>
+                        <li>Lead project planning, execution, and monitoring activities.</li>
+                        <li>Coordinate resources and manage project budgets and timelines.</li>
+                        <li>Identify and mitigate project risks and issues.</li>
+                        <li>Communicate project status and updates to stakeholders.</li>
+                    </ul>
+            
+                    <h2>Qualifications</h2>
+                    <ul>
+                        <li>Bachelor's degree in Information Technology, Business Administration, or related field.</li>
+                        <li>Proven experience in project management, preferably in the IT industry.</li>
+                        <li>Familiarity with project management methodologies such as Agile or Scrum.</li>
+                        <li>Strong leadership and decision-making skills.</li>
+                        <li>Excellent interpersonal and communication skills.</li>
+                    </ul>
+                </main>
+                <header>
+                    <h1>DevOps Engineer</h1>
+                    <p>Explore opportunities at Future Industries</p>
+                </header>
+            
+                <main>
+                    <h2>Key Responsibilities</h2>
+                    <ul>
+                        <li>Design and implement CI/CD pipelines for automated software delivery.</li>
+                        <li>Manage cloud infrastructure and services using tools like AWS or Azure.</li>
+                        <li>Monitor system performance and troubleshoot issues to ensure uptime and reliability.</li>
+                        <li>Implement security best practices and ensure compliance with industry standards.</li>
+                    </ul>
+            
+                    <h2>Qualifications</h2>
+                    <ul>
+                        <li>Bachelor's degree in Computer Science, Engineering, or related field.</li>
+                        <li>Hands-on experience with DevOps tools such as Docker, Kubernetes, Terraform, and Jenkins.</li>
+                        <li>Proficiency in scripting languages such as Bash or Python.</li>
+                        <li>Strong understanding of networking concepts and protocols.</li>
+                        <li>Excellent problem-solving and teamwork skills.</li>
+                    </ul>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <section id="Apply" class="hidden">
+        <h2>Apply Now</h2>
+        <p>Ready to take the next step? Apply to a job.</p>
+        <!-- Form code starts here -->
+        <a name="form447157330" id="formAnchor447157330"></a>
+        <script src="https://fs17.formsite.com/include/form/embedManager.js?447157330"></script>
+        <script>
+            EmbedManager.embed({
+                key: "https://fs17.formsite.com/res/showFormEmbed?EParam=B6fiTn-RcO4mRYiljzNuUmrYe2Y6sJfY&447157330",
+                width: "100%"
+            });
+        </script>
+    </section>
+
+    <section id="Benefits" class="hidden">
+        <h2>Benefits at Future Industries</h2>
+        <div class="benefits-container">
+            <div class="benefit">
+                <h3>Competitive Compensation</h3>
+                <p>At Future Industries, we believe in rewarding talent and dedication. We offer competitive salaries and performance-based bonuses to recognize and incentivize our employees' contributions.</p>
+            </div>
+            <div class="benefit">
+                <h3>Comprehensive Healthcare</h3>
+                <p>We prioritize the health and well-being of our team members. Our comprehensive healthcare coverage includes medical, dental, and vision insurance plans, ensuring that you and your family are well taken care of.</p>
+            </div>
+            <div class="benefit">
+                <h3>Professional Development</h3>
+                <p>Continuous learning is essential to stay ahead in the rapidly evolving tech industry. We provide ample opportunities for professional development, including training programs, certifications, and tuition reimbursement.</p>
+            </div>
+            <div class="benefit">
+                <h3>Work-Life Balance</h3>
+                <p>At Future Industries, we understand the importance of maintaining a healthy work-life balance. We offer flexible work arrangements, remote work options, and generous vacation policies to help you manage your personal and professional commitments.</p>
+            </div>
+            <div class="benefit">
+                <h3>Community Involvement</h3>
+                <p>At Future Industries, we understand the importance of being actively engaged in our communities and making a positive impact beyond the walls of our offices. That's why we're deeply committed to corporate social responsibility and giving back to society.</p>
+                <p>Through our community involvement initiatives, we aim to address pressing social issues, support local organizations, and empower individuals to thrive. Whether it's through volunteering, charitable donations, or partnerships with nonprofit organizations, we strive to create meaningful change and contribute to the well-being of the communities where we live and work.</p>
+                <p>By actively participating in community service projects, organizing fundraising events, and promoting social causes, our employees have the opportunity to make a difference and leave a lasting legacy of compassion and generosity.</p>
+            </div>
+            <div class="benefit">
+                <h3>Employee Assistance Program (EAP)</h3>
+                <p>At Future Industries, we care about the well-being of our employees both inside and outside of work. Our Employee Assistance Program (EAP) provides confidential counseling, resources, and support for various personal and work-related challenges.</p>
+                <p>Whether you're dealing with stress, anxiety, financial concerns, or other issues, our EAP offers professional assistance to help you navigate through difficult times and improve your overall well-being.</p>
+            </div>
+            
+        </div>
+    </section>
+    
+    <footer>
+        <h2>Contact Us</h2>
+        <p>Have questions or want to learn more about opportunities at Future Industries? Get in touch with our dedicated recruitment team today.</p>
+        <p>Phone: +1 (818) 451-7766</p>
+        <p>Email: info@techconsult.com</p>
+        <p>Address: 123 Tech Street, TAMPA, TC 16545</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
